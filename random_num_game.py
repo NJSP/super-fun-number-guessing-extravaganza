@@ -17,7 +17,7 @@ elif diff == 'medium':
 else:
     num = ra.randint(0, 100)
 
-print("I'm thinking of a number between. Try to guess what it is!")
+print("I'm thinking of a number. Try to guess what it is!")
 while guess != num:
     guess = int(input())
     if guess == num:
